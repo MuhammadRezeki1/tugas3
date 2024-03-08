@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF5EE"
+    tools:context=".vixion">
+
+    <TextView
+        android:id="@+id/vixiontx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vixion"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#800000"
+        />
+
+    <ImageView
+        android:id="@+id/imgvx"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/vixionr"
+        />
+
+    <TextView
+        android:id="@+id/exvx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kapasitas_149_8_cc_tenaga_maksimal_16_36_hp_diameter_x_langkah_57_mm_x_58_7_mm_rasio_kompresi_10_4_1_konfigurasi_katup_sohc_pipa_knalpot_single_exhaust_kecepatan_maksimum_130_kmph_jenis_penggerak_chain_drive_sistem_pendinginan_pendingin_cairan"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/share"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+
+        />
+
+
+</LinearLayout>

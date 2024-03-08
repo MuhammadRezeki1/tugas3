@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B0C4DE"
+    android:orientation="vertical"
+    tools:context=".nmax">
+
+    <TextView
+        android:id="@+id/nmaxtx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nmax"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#800000"
+        />
+
+    <ImageView
+        android:id="@+id/imgnmax"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/nmax"
+        />
+
+    <TextView
+        android:id="@+id/exnmax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kapasitas_155_cc_tenaga_maksimal_15_hp_sistem_pendinginan_pendingin_cairan_rasio_kompresi_10_5_1_jumlah_langkah_4_stroke_torsi_maksimal_13_9_nm_sistem_pelumasan_wet_sump_pipa_knalpot_single_exhaust_jenis_penggerak_belt_drive_jumlah_silinder_1_jenis_kopling_single_dry_type"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/share"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+
+        />
+
+</LinearLayout>

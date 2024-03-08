@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBC8F"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".cbr"
+    >
+
+    <ImageView
+        android:id="@+id/tvimg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cbr"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/cbtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbr"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:textColor="#800000"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kapasitas_149_16_cc_tenaga_maksimal_16_8_hp_jenis_kopling_wet_multi_plate_sistem_pelumasan_wet_pipa_knalpot_single_exhaust_jenis_mesin_single_cylinder_4_stroke_4_valve"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#800000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDR.35.500.000,00"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="#800000"
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Share"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#C71585"
+        />
+
+
+</LinearLayout>

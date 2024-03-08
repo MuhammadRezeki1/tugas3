@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF5EE"
+    tools:context=".halrx">
+
+    <TextView
+        android:id="@+id/txtrx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/RX_KING"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/imgrx"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/rxk"
+        />
+
+    <TextView
+        android:id="@+id/explrx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/berkapasitas_132_cc_2_tak_dan_berpendingin_udara_perbandingan_kompresinya_6_9_1_dengan_diameter_silinder_58_0_mm_x_stroke_50_mm_pakai_kopling_manual_basah_dengan_multiplat_disandingkan_dengan_transmisi_5_percepatan"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#191970"
+        />
+
+    <TextView
+        android:id="@+id/costrx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDR.25.000.000,00"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Share"
+        android:textSize="25sp"
+        android:backgroundTint="#C71585"
+
+
+
+
+
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>

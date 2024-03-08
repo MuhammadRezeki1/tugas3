@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C0C0C0"
+    tools:context=".halmatic">
+
+    <TextView
+        android:id="@+id/vario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vario"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#800000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imgvario"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/vario"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        tools:ignore="ObsoleteLayoutParam"
+        />
+
+    <TextView
+        android:id="@+id/mio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mio"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#800000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imgmio"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/mio"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        tools:ignore="ObsoleteLayoutParam"
+        />
+
+    <TextView
+        android:id="@+id/beat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/beat"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#800000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText"
+
+        />
+
+    <ImageView
+        android:id="@+id/imgbeat"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/beat"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        tools:ignore="ObsoleteLayoutParam"
+        />
+
+
+    <TextView
+        android:id="@+id/nmax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nmax"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#800000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgnmax"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/nmax"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        tools:ignore="ObsoleteLayoutParam"
+        />
+
+    <TextView
+        android:id="@+id/pcx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PCX"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#800000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText"
+        />
+
+    <ImageView
+        android:id="@+id/imgpcx"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/pcx"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        tools:ignore="ObsoleteLayoutParam"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

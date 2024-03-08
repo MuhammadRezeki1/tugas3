@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B0C4DE"
+    tools:context=".mio">
+
+    <TextView
+        android:id="@+id/miotx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mio"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#800000"
+        />
+
+    <ImageView
+        android:id="@+id/imgmio"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/mio"
+        />
+
+    <TextView
+        android:id="@+id/exxmio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kapasitas_125_cc_tenaga_maksimal_9_38_hp_pipa_knalpot_single_exhaust_diameter_x_langkah_52_4_mm_x_57_9_mm_jenis_penggerak_belt_drive_jumlah_langkah_4_stroke_tipe_injeksi_direct_injection_katup_per_silinder_2_sistem_pendinginan_pendingin_udara_sistem_pelumasan_wet_sump_konfigurasi_katup_sohc"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/share"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+
+        />
+</LinearLayout>

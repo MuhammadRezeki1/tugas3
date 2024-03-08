@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B0C4DE"
+    tools:context=".beat">
+
+    <TextView
+        android:id="@+id/beattx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beat"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#800000"
+        />
+
+    <ImageView
+        android:id="@+id/imgbeat"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/beat"
+        />
+
+    <TextView
+        android:id="@+id/exbeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipe_mesin_4_langkah_sohc_esp_tipe_transmisi_otomatis_v_matic_tipe_kopling_otomatis_sentrifugal_tipe_kering_tipe_starter_kaki_dan_elektrik_diameter_x_langkah_47_x_63_1_mm_volume_langkah_109_5_cc_sistem_pendingin_mesin_pendingin_udara"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/sharebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/share"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+
+        />
+
+
+</LinearLayout>
